@@ -1,5 +1,5 @@
-SGS
-===
+Semantic Gateway as Service for Internet of Things (Example code for proof od concept)
+========================================================================================
 
 ## Installing necessary packages
 
@@ -86,7 +86,7 @@ mosquitto_sub -t "temperature-MQTT" -v
 ```
 
 
-## Base reading from a Sensor
+## Sample reading from a Sensor
 
 The sample json file sent from the sensor node is,
 
@@ -99,9 +99,24 @@ The sample json file sent from the sensor node is,
     "ObservationUnit":"Celsius"
 }
 ```
+## ToDo
+* Add semantic annotation before sending the message to subscribers/Get requests. Use Semantic Sensot Network (SSN) ontology to annotate
+* 
 
+## Semantic Gateway as Service for Internet of Things (IoT) architecture
 
-Special Thanks to Matteo Collina and Eclipse Ponte project.
-This program and the accompanying materials
+### Semantic web based Internet of Things Architecture
+![Overall Semantic Internet of Things Architecture](https://raw.githubusercontent.com/chheplo/node-sgs/master/artwork/SemanticIoTArchitecture.png)
+
+### Semantic Gateway as Service architecture
+![Semantic Gateway as Service architecture](https://raw.githubusercontent.com/chheplo/node-sgs/master/artwork/SGSArchitecture.png)
+
+### Semantic annotation using SSN and Domain onotologies
+![Semantic annotation using SSN and Domain onotologies](https://raw.githubusercontent.com/chheplo/node-sgs/master/artwork/SemanticAnnotation.png)
+
+## LICENSE
+* Need to provide proper references. pending work. Will update soon.
+* Special Thanks to Matteo Collina and Eclipse Ponte project.
+* This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * and Eclipse Distribution License v1.0 which accompany this distribution.
