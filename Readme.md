@@ -1,4 +1,4 @@
-Semantic Gateway as Service for IoT (Proof of concept code)
+Node-SGS 0.9 (Semantic Gateway as Service for IoT)
 ========================================================================================
 
 ## Installing necessary packages
